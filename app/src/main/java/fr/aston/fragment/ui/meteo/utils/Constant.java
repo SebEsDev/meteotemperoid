@@ -1,4 +1,4 @@
-package fr.aston.fragment.ui.meteo;
+package fr.aston.fragment.ui.meteo.utils;
 
 public class Constant {
 

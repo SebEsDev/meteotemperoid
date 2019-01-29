@@ -1,4 +1,4 @@
-package fr.aston.fragment.ui.meteo;
+package fr.aston.fragment.ui.meteo.utils;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
