@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity
                 switchFragment(new TemperatureFragment());
                 break;
             case R.id.nav_meteo:
-                switchFragment(MeteoFragment.newInstance("Sébastien", "Fellenberg"));
+                switchFragment(new MeteoFragment());
                 break;
         }
 

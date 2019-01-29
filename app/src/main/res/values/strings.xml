@@ -29,4 +29,5 @@
     <string name="cancel">ANNULER</string>
     <string name="meteo_hint">Entrez une ville</string>
     <string name="temperature_button_ok">OK</string>
+    <string name="meteo_dialog_city_empty">Veuillez saisir un nom de ville</string>
 </resources>
