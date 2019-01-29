@@ -68,8 +68,8 @@ public class MeteoFragment extends Fragment {
 
         // Récupération des views
         /** textViewFirstName = view.findViewById(R.id.textViewFirstName);
-        textViewLastName = view.findViewById(R.id.textViewLastName);
-        return view; **/
+        textViewLastName = view.findViewById(R.id.textViewLastName);**/
+        return view;
     }
 
     @Override

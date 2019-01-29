@@ -27,4 +27,6 @@
     <string name="action_delete">Effacer</string>
     <string name="ok">OK</string>
     <string name="cancel">ANNULER</string>
+    <string name="meteo_hint">Entrez une ville</string>
+    <string name="temperature_button_ok">OK</string>
 </resources>
