@@ -50,6 +50,12 @@ public class MeteoFragment extends Fragment {
 
                 if(!editTextMeteoCity.getText().toString().isEmpty()){
 
+                    if(Network.isNetworkAvailable(getContext())){
+
+                    }else{
+                        FastDialog.showDialog(getContext(), FastDialog.SIMPLE_DIALOG, getString(R.string.meteo_dialog_network));
+                    }
+
                 }else {
                     // TODO : affciher une boite de dialogue
                     FastDialog.showDialog(getContext(), FastDialog.SIMPLE_DIALOG, getString(R.string.meteo_dialog_city_empty));
